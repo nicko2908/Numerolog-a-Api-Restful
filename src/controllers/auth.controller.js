@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken';
 import User from '../models/user.model.js';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import { AppError } from '../middlewares/error.middleware.js';
 import { validateRegisterInput, validateLoginInput } from '../utils/validators.js';
 

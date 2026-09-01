@@ -1,4 +1,4 @@
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import User from '../models/user.model.js';
 import { AppError } from '../middlewares/error.middleware.js';
 import { isValidEmail } from '../utils/validators.js';
